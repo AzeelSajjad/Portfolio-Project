@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 1000px;
+    width:100%;
+    background-image: url(./Untitled.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    font-size: 35px;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px  5px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:#f9004d;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: purple;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+.about-text{
+    width: 550px;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #f9004d;
+}
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: purple;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.projects{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: #f9004d;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.card ul li{
+    color:purple;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.contact{
+    width: 100%;
+    padding: 100px 0px;
+    height: 0px;
+    justify-content: space-around;
+}
+.contact h2{
+    font-size: 50px;
+    text-align: center;
+    height: 50px;
+}
+.contact ul li{
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 10px;
+}
